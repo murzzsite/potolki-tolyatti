@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Натяжные потолки в Тольятти — монтаж 550 ₽ за м², замер бесплатно</title>
+<meta name="description" content="Изготовление и монтаж натяжных потолков в Тольятти. Установка потолка — 550 ₽ за м², замер бесплатный. Продаём комплектующие. Посчитайте стоимость онлайн.">
+<meta name="theme-color" content="#eef0f3">
+<meta property="og:title" content="Натяжные потолки в Тольятти — замер бесплатно">
+<meta property="og:description" content="Монтаж — 550 ₽ за м². Посчитайте стоимость потолка онлайн и запишитесь на бесплатный замер.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Потолки Тольятти — на главную">
+      <svg class="logo__mark" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="currentColor"/><circle cx="16" cy="16" r="6" fill="#fff"/></svg>
+      <span class="logo__text">Потолки<span class="logo__sfx"> Тольятти</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#calc">Расчёт цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#services">Что делаем</a>
+      <a href="#areas">Районы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--accent header__cta" href="#contact"><span class="cta-full">Записаться на замер</span><span class="cta-short">Замер</span></a>
+    <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="hero__copy">
+      <h1 id="hero-h">Натяжные потолки в&nbsp;Тольятти</h1>
+      <p class="hero__lead">Монтаж — 550&nbsp;₽ за м². Замер бесплатный: мастер приедет, измерит комнату и назовёт точную цену.</p>
+      <div class="hero__actions">
+        <a class="btn btn--accent" href="#contact">Записаться на замер</a>
+        <a class="textlink" href="#calc">Посчитать свой потолок</a>
+      </div>
+    </div>
+    <div class="hero__disc">
+      <p class="disc__price">550&nbsp;₽</p>
+      <p class="disc__unit">за м² монтажа</p>
+      <p class="disc__free">Замер бесплатно</p>
+    </div>
+  </section>
+
+  <section class="calc" id="calc" aria-labelledby="calc-h">
+    <div class="calc__list">
+      <h2 id="calc-h">Посчитайте свой потолок</h2>
+      <p class="calc__intro">Цена каждой работы указана рядом. Меняйте количество — итог пересчитается сразу.</p>
+      <form class="calc__rows" id="calcForm" novalidate>
+        <div class="row" data-key="area" data-price="550" data-max="300">
+          <label class="row__name" for="c-area">Установка натяжного потолка</label>
+          <span class="row__price">550 ₽ за м²</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-area" type="text" inputmode="decimal" value="18" autocomplete="off">
+            <span class="stepper__unit">м²</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+        <div class="row" data-key="plug" data-price="150" data-max="300">
+          <label class="row__name" for="c-plug">Установка декоративной заглушки</label>
+          <span class="row__price">150 ₽ за м.п.</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-plug" type="text" inputmode="decimal" value="17" autocomplete="off">
+            <span class="stepper__unit">м.п.</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+        <div class="row" data-key="spots" data-price="500" data-max="80">
+          <label class="row__name" for="c-spots">Установка светильников</label>
+          <span class="row__price">500 ₽ за шт.</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-spots" type="text" inputmode="numeric" value="6" autocomplete="off">
+            <span class="stepper__unit">шт.</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+        <div class="row" data-key="lustre" data-price="1000" data-max="20">
+          <label class="row__name" for="c-lustre">Установка люстры</label>
+          <span class="row__price">1 000 ₽ за шт.</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-lustre" type="text" inputmode="numeric" value="1" autocomplete="off">
+            <span class="stepper__unit">шт.</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+        <div class="row" data-key="rod" data-price="850" data-max="100">
+          <label class="row__name" for="c-rod">Установка карниза</label>
+          <span class="row__price">850 ₽ за м.п.</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-rod" type="text" inputmode="decimal" value="3" autocomplete="off">
+            <span class="stepper__unit">м.п.</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="calc__result">
+      <svg class="plan" id="plan" viewBox="0 0 400 300" role="img" aria-label="Схема комнаты: размер потолка, светильники, люстра и карниз по вашему расчёту"></svg>
+      <div class="result">
+        <p class="total" id="total" aria-hidden="true">19&nbsp;000&nbsp;₽</p>
+        <p class="visually-hidden" id="totalLive" role="status"></p>
+        <p class="summary" id="summary">Потолок 18 м², заглушка 17 м.п., светильники 6 шт., люстра 1 шт., карниз 3 м.п.</p>
+        <p class="result__note">Расчёт по прайсу. Точную сумму назовём на бесплатном замере.</p>
+        <a class="btn btn--light" href="#contact" id="calcCta">Записаться на замер с этим расчётом</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process" aria-labelledby="process-h">
+    <div class="process__head">
+      <h2 id="process-h">Как мы работаем</h2>
+      <p>От заявки до готового потолка три шага. Цену вы узнаёте на втором — до начала работ.</p>
+    </div>
+    <ol class="steps">
+      <li class="step">
+        <svg class="step__art" viewBox="0 0 400 267" aria-hidden="true" focusable="false"><circle cx="16.4" cy="27.1" r="9.9" fill="#d3d8e0"/><circle cx="274.8" cy="138.7" r="7.6" fill="#b8c0cd"/><circle cx="187.3" cy="70.3" r="8.2" fill="#b8c0cd"/><circle cx="286.4" cy="74.6" r="6.6" fill="#d3d8e0"/><circle cx="299.3" cy="138.0" r="6.8" fill="#b8c0cd"/><circle cx="150.4" cy="83.3" r="8.1" fill="#b8c0cd"/><circle cx="123.4" cy="249.6" r="7.0" fill="#d3d8e0"/><circle cx="342.0" cy="58.4" r="6.6" fill="#b8c0cd"/><circle cx="70.1" cy="82.7" r="8.2" fill="#b8c0cd"/><circle cx="298.5" cy="30.1" r="9.7" fill="#d3d8e0"/><circle cx="220.2" cy="163.1" r="8.7" fill="#b8c0cd"/><circle cx="375.2" cy="163.7" r="9.7" fill="#b8c0cd"/><circle cx="323.2" cy="21.7" r="6.7" fill="#d3d8e0"/><circle cx="146.2" cy="115.4" r="6.1" fill="#b8c0cd"/><circle cx="45.1" cy="198.6" r="7.5" fill="#d3d8e0"/><circle cx="172.4" cy="125.9" r="9.8" fill="#b8c0cd"/><circle cx="276.4" cy="179.3" r="7.3" fill="#b8c0cd"/><circle cx="146.0" cy="45.7" r="6.5" fill="#b8c0cd"/><circle cx="355.3" cy="90.3" r="6.8" fill="#b8c0cd"/><circle cx="249.7" cy="93.8" r="6.2" fill="#b8c0cd"/><circle cx="269.3" cy="235.9" r="8.2" fill="#b8c0cd"/><circle cx="322.8" cy="171.2" r="9.7" fill="#b8c0cd"/><circle cx="56.0" cy="140.8" r="8.6" fill="#d3d8e0"/><circle cx="347.0" cy="245.4" r="9.4" fill="#b8c0cd"/><circle cx="235.4" cy="246.2" r="9.9" fill="#d3d8e0"/><circle cx="218.3" cy="210.9" r="6.0" fill="#b8c0cd"/><circle cx="206.0" cy="91.7" r="8.9" fill="#d3d8e0"/><circle cx="253.5" cy="191.5" r="8.2" fill="#d3d8e0"/><circle cx="129.5" cy="69.6" r="6.0" fill="#d3d8e0"/><circle cx="21.1" cy="241.2" r="9.3" fill="#d3d8e0"/><circle cx="249.1" cy="15.5" r="8.5" fill="#b8c0cd"/><circle cx="64.3" cy="253.6" r="8.0" fill="#b8c0cd"/><circle cx="225.2" cy="51.1" r="7.6" fill="#d3d8e0"/><circle cx="91.2" cy="209.7" r="9.4" fill="#b8c0cd"/><circle cx="311.2" cy="219.5" r="6.8" fill="#d3d8e0"/><circle cx="220.6" cy="128.1" r="8.1" fill="#b8c0cd"/><circle cx="77.1" cy="17.9" r="6.4" fill="#d3d8e0"/><circle cx="77.6" cy="110.4" r="8.0" fill="#d3d8e0"/><circle cx="287.4" cy="101.5" r="7.4" fill="#b8c0cd"/><circle cx="173.6" cy="98.7" r="9.7" fill="#d3d8e0"/><circle cx="106.5" cy="99.8" r="7.9" fill="#d3d8e0"/><circle cx="324.2" cy="110.2" r="9.9" fill="#d3d8e0"/><circle cx="198.4" cy="118.1" r="8.8" fill="#d3d8e0"/><circle cx="73.1" cy="180.5" r="7.6" fill="#b8c0cd"/></svg>
+        <div class="step__text">
+          <h3>Заявка</h3>
+          <p>Вы оставляете имя и телефон. Мы перезваниваем и договариваемся о времени замера.</p>
+        </div>
+      </li>
+      <li class="step">
+        <svg class="step__art" viewBox="0 0 400 267" aria-hidden="true" focusable="false"><circle cx="10.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="30.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="50.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="70.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="90.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="110.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="130.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="150.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="170.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="190.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="210.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="230.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="250.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="270.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="290.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="310.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="330.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="350.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="370.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="390.0" cy="113.0" r="8" fill="#b8c0cd"/><circle cx="10.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="30.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="50.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="70.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="90.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="110.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="130.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="150.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="170.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="190.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="210.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="230.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="250.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="270.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="290.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="310.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="330.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="350.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="370.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="390.0" cy="133.0" r="8" fill="#8f98a8"/><circle cx="10.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="30.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="50.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="70.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="90.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="110.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="130.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="150.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="170.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="190.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="210.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="230.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="250.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="270.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="290.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="310.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="330.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="350.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="370.0" cy="153.0" r="8" fill="#b8c0cd"/><circle cx="390.0" cy="153.0" r="8" fill="#b8c0cd"/></svg>
+        <div class="step__text">
+          <h3>Замер</h3>
+          <p>Мастер приезжает, измеряет комнату и считает по прайсу. Замер бесплатный.</p>
+        </div>
+      </li>
+      <li class="step">
+        <svg class="step__art" viewBox="0 0 400 267" aria-hidden="true" focusable="false"><circle cx="14.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="32.0" r="8" fill="#1f2de6"/><circle cx="14.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="72.0" r="8" fill="#1f2de6"/><circle cx="14.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="112.0" r="8" fill="#1f2de6"/><circle cx="14.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="152.0" r="8" fill="#1f2de6"/><circle cx="14.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="192.0" r="8" fill="#1f2de6"/><circle cx="14.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="40.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="66.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="92.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="118.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="144.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="170.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="196.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="222.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="248.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="274.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="300.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="326.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="352.0" cy="232.0" r="8" fill="#1f2de6"/><circle cx="378.0" cy="232.0" r="8" fill="#1f2de6"/></svg>
+        <div class="step__text">
+          <h3>Монтаж</h3>
+          <p>Изготавливаем потолок под ваши размеры и ставим его вместе с тем, что вы выбрали: заглушка, светильники, люстра, карниз.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="services" id="services" aria-labelledby="services-h">
+    <h2 id="services-h">Что делаем и что продаём</h2>
+
+    <div class="cat">
+      <div class="cat__head"><h3>Изготовление и монтаж</h3><p>5 работ</p></div>
+      <ul class="menu">
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Натяжной потолок</strong><span>550 ₽ за м²</span></p><p class="menu__desc">Изготавливаем полотно по размерам вашей комнаты и устанавливаем.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Декоративная заглушка</strong><span>150 ₽ за м.п.</span></p><p class="menu__desc">Закрывает зазор между потолком и стеной по периметру.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Светильник</strong><span>500 ₽ за шт.</span></p><p class="menu__desc">Установка светильника в натяжной потолок.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Люстра</strong><span>1 000 ₽ за шт.</span></p><p class="menu__desc">Установка люстры на натяжной потолок.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Карниз</strong><span>850 ₽ за м.п.</span></p><p class="menu__desc">Установка потолочного карниза под шторы.</p></div></li>
+      </ul>
+    </div>
+
+    <div class="cat">
+      <div class="cat__head"><h3>Комплектующие</h3><p>продаём отдельно</p></div>
+      <ul class="menu">
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Профили для потолка</strong></p><p class="menu__desc">Крепление полотна по периметру комнаты.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Декоративные заглушки</strong></p><p class="menu__desc">Чтобы закрыть зазор у стены.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Светильники</strong></p><p class="menu__desc">Встраиваются в потолок.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Карнизы</strong></p><p class="menu__desc">Потолочные карнизы под шторы.</p></div></li>
+      </ul>
+      <p class="cat__note">Цену на комплектующие назовём по запросу — напишите в заявке, что нужно.</p>
+    </div>
+  </section>
+
+  <figure class="band">
+    <img src="assets/zhiguli.jpg" width="1920" height="501" alt="Жигулёвские горы зимой, вид с Куйбышевского водохранилища" loading="lazy" decoding="async">
+    <figcaption>Жигулёвские горы, вид с Куйбышевского водохранилища</figcaption>
+  </figure>
+
+  <section class="areas" id="areas" aria-labelledby="areas-h">
+    <div class="areas__list">
+      <h2 id="areas-h">Выезжаем в любой район Тольятти</h2>
+      <p>Замер бесплатный в Автозаводском, Центральном и Комсомольском районах.</p>
+      <ul class="index" id="index">
+        <li data-i="0" data-district="Автозаводский район">
+          <a href="#contact">Автозаводский район</a>
+          <figure class="index__inline"><img src="assets/avtozavodsky.jpg" width="1100" height="568" alt="Заснеженная сосновая роща в Автозаводском районе Тольятти" loading="lazy" decoding="async"></figure>
+        </li>
+        <li data-i="1" data-district="Комсомольский район">
+          <a href="#contact">Комсомольский район</a>
+          <figure class="index__inline"><img src="assets/komsomolsky.jpg" width="1000" height="640" alt="Многоэтажные жилые дома в Комсомольском районе Тольятти" loading="lazy" decoding="async"></figure>
+        </li>
+        <li data-i="2" data-district="Центральный район">
+          <a href="#contact">Центральный район</a>
+          <figure class="index__inline"><img src="assets/volga.jpg" width="1100" height="586" alt="Картина: берег Волги у Жигулёвских гор, парусная лодка у воды" loading="lazy" decoding="async"></figure>
+        </li>
+      </ul>
+    </div>
+    <figure class="preview" id="preview">
+      <div class="preview__disc">
+        <img class="is-active" src="assets/avtozavodsky.jpg" width="1100" height="568" alt="Заснеженная сосновая роща в Автозаводском районе Тольятти" loading="lazy" decoding="async" data-pos="40% 50%">
+        <img src="assets/komsomolsky.jpg" width="1000" height="640" alt="Многоэтажные жилые дома в Комсомольском районе Тольятти" loading="lazy" decoding="async" data-pos="40% 50%">
+        <img src="assets/volga.jpg" width="1100" height="586" alt="Картина: берег Волги у Жигулёвских гор, парусная лодка у воды" loading="lazy" decoding="async" data-pos="70% 50%">
+      </div>
+      <figcaption id="previewCap">Автозаводский район зимой</figcaption>
+    </figure>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">Частые вопросы</h2>
+    <div class="faq__stack">
+      <details class="qa" name="faq" style="--i:0" open>
+        <summary><span class="qa__tab">Цена</span><span class="qa__q">Кажется дорого. Из чего складывается цена?</span></summary>
+        <div class="qa__a"><p>550 ₽ — стоимость установки одного квадратного метра потолка. Остальное считается отдельно: заглушка, светильники, люстра, карниз. Вы берёте только нужное и платите только за него. Цена каждой работы написана на сайте — соберите свой вариант в расчёте выше.</p></div>
+      </details>
+      <details class="qa" name="faq" style="--i:1">
+        <summary><span class="qa__tab">Замер</span><span class="qa__q">Сколько стоит замер?</span></summary>
+        <div class="qa__a"><p>Нисколько, замер бесплатный. Мастер приезжает, измеряет комнату и считает точную сумму по прайсу.</p></div>
+      </details>
+      <details class="qa" name="faq" style="--i:2">
+        <summary><span class="qa__tab">Состав</span><span class="qa__q">Что входит в итоговую сумму?</span></summary>
+        <div class="qa__a"><p>Пять позиций: установка потолка за м², заглушка за м.п., светильники и люстры за штуку, карниз за м.п. Чего вы не выбрали, в сумму не входит.</p></div>
+      </details>
+      <details class="qa" name="faq" style="--i:3">
+        <summary><span class="qa__tab">Детали</span><span class="qa__q">Можно купить комплектующие без монтажа?</span></summary>
+        <div class="qa__a"><p>Да, мы продаём комплектующие отдельно. Напишите в заявке, что нужно, — назовём цену и условия.</p></div>
+      </details>
+      <details class="qa" name="faq" style="--i:4">
+        <summary><span class="qa__tab">Район</span><span class="qa__q">Вы работаете только в Тольятти?</span></summary>
+        <div class="qa__a"><p>Да, мы работаем в Тольятти. Если вы живёте рядом с городом, напишите в заявке — подскажем, сможем ли приехать.</p></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-h">
+    <div class="coupon">
+      <div class="coupon__lead">
+        <h2 id="contact-h">Запишитесь на бесплатный замер</h2>
+        <p>Оставьте имя и телефон — мы перезвоним и договоримся о времени.</p>
+      </div>
+      <form class="coupon__form" id="leadForm" novalidate>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="calc" id="calcField">
+        <label class="visually-hidden" for="f-name">Ваше имя</label>
+        <input id="f-name" name="name" type="text" placeholder="Ваше имя" autocomplete="name" required>
+        <label class="visually-hidden" for="f-phone">Телефон</label>
+        <input id="f-phone" name="phone" type="tel" placeholder="Телефон" autocomplete="tel" inputmode="tel" required>
+        <label class="visually-hidden" for="f-district">Район или улица</label>
+        <input id="f-district" name="district" type="text" placeholder="Район или улица" autocomplete="street-address">
+        <label class="visually-hidden" for="f-comment">Комментарий</label>
+        <input id="f-comment" name="comment" type="text" placeholder="Комментарий, если нужно">
+        <button class="coupon__submit" type="submit">Записаться на замер</button>
+        <p class="coupon__legal">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">политикой обработки данных</a>.</p>
+        <p class="coupon__status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <svg class="footer__mark" viewBox="0 0 1296 212" aria-hidden="true" focusable="false"><circle cx="52.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="160.0" cy="52.0" r="52" fill="#1f2de6"/><circle cx="268.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="376.0" cy="52.0" r="52" fill="#ffffff"/><circle cx="484.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="592.0" cy="52.0" r="52" fill="#1f2de6"/><circle cx="700.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="808.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="916.0" cy="52.0" r="52" fill="#1f2de6"/><circle cx="1024.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="1132.0" cy="52.0" r="52" fill="#ffffff"/><circle cx="1240.0" cy="52.0" r="52" fill="#d3d8e0"/><circle cx="52.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="160.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="268.0" cy="160.0" r="52" fill="#1f2de6"/><circle cx="376.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="484.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="592.0" cy="160.0" r="52" fill="#1f2de6"/><circle cx="700.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="808.0" cy="160.0" r="52" fill="#ffffff"/><circle cx="916.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="1024.0" cy="160.0" r="52" fill="#d3d8e0"/><circle cx="1132.0" cy="160.0" r="52" fill="#1f2de6"/><circle cx="1240.0" cy="160.0" r="52" fill="#d3d8e0"/></svg>
+  <div class="footer__body">
+    <nav class="footer__links" aria-label="Разделы сайта">
+      <a href="#calc">Расчёт цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#services">Что делаем</a>
+      <a href="#areas">Районы</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contact">Записаться на замер</a>
+    </nav>
+    <div class="footer__contact">
+      <p>Тольятти</p>
+      <p>Заявки принимаем на сайте — перезваниваем и договариваемся о замере.</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Потолки Тольятти</p>
+    <a class="btn btn--small" href="#top">Наверх</a>
+  </div>
+  <p class="footer__credits">Фотографии: Sergey Kozorezov (Автозаводский район, CC BY 3.0), ShinePhantom (Комсомольский район, CC BY-SA 3.0), delphiski-oracul (Жигули, CC BY-SA 3.0), картина Н. Ф. Добровольского «Ночь на Волге. Жигули», 1885 (общественное достояние) — через Wikimedia Commons.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
