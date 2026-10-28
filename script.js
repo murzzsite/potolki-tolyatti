@@ -56,11 +56,11 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/NHV8H8AXK6'
 
   // ===== Calculator: the live thing =====
   const rows = [...document.querySelectorAll('#calcForm .row')];
-  const state = { area: 18, plug: 17, spots: 6, lustre: 1, rod: 3 };
+  const state = { area: 18, profile: 17, plug: 17, spots: 6, lustre: 1, rod: 3 };
   const prices = {};
   const maxes = {};
   const inputs = {};
-  let plugTouched = false;
+  let plugTouched = false, profileTouched = false;
 
   rows.forEach(row => {
     const key = row.dataset.key;
@@ -132,13 +132,14 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/NHV8H8AXK6'
   }
 
   const sum = () =>
-    state.area * prices.area + state.plug * prices.plug + state.spots * prices.spots +
+    state.area * prices.area + state.profile * prices.profile + state.plug * prices.plug + state.spots * prices.spots +
     state.lustre * prices.lustre + state.rod * prices.rod;
 
   const num = n => String(Math.round(n * 10) / 10).replace('.', ',');
   function describe() {
     const bits = [];
     if (state.area) bits.push(`потолок ${num(state.area)} м²`);
+    if (state.profile) bits.push(`профиль ${num(state.profile)} м.п.`);
     if (state.plug) bits.push(`заглушка ${num(state.plug)} м.п.`);
     if (state.spots) bits.push(`светильники ${num(state.spots)} шт.`);
     if (state.lustre) bits.push(`люстра ${num(state.lustre)} шт.`);
@@ -176,10 +177,12 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/NHV8H8AXK6'
   function setKey(key, value, fromUser) {
     state[key] = parse(value, maxes[key]);
     if (key === 'plug' && fromUser) plugTouched = true;
-    if (key === 'area' && !plugTouched) {
+    if (key === 'profile' && fromUser) profileTouched = true;
+    if (key === 'area') {
       const w = Math.sqrt(state.area * 4 / 3), h = Math.sqrt(state.area * 3 / 4);
-      state.plug = Math.round(2 * (w + h));
-      inputs.plug.value = state.plug;
+      const per = Math.round(2 * (w + h));
+      if (!plugTouched) { state.plug = per; inputs.plug.value = per; }
+      if (!profileTouched) { state.profile = per; inputs.profile.value = per; }
     }
     update();
   }

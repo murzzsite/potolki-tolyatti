@@ -427,6 +427,7 @@ h3 { font-size: var(--step-lead); line-height: 1.1; letter-spacing: -0.02em; }
   .menu { grid-template-columns: 1fr; gap: 28px; }
   .areas { display: block; padding-top: var(--sect); }
   .preview { display: none; }
+  .areas__list > h2 { max-width: none; }
   .index li { display: grid; grid-template-columns: 96px 1fr; gap: 16px; align-items: center; padding: 14px 0; }
   .index a { font-size: var(--step-lead); opacity: 1 !important; color: var(--ink); }
   .index__inline { display: block; order: -1; }
@@ -458,3 +459,8 @@ h3 { font-size: var(--step-lead); line-height: 1.1; letter-spacing: -0.02em; }
 
 /* last card closes the stack without a hollow tail */
 .qa:last-child { padding-bottom: 32px; }
+
+.phone { font-weight: 800; font-size: var(--step-small); text-decoration: none; white-space: nowrap; }
+.phone:hover { color: var(--accent); }
+.footer__contact a, .coupon__lead a { color: inherit; font-weight: 800; }
+@media (max-width: 1180px) { .phone { display: none; } }

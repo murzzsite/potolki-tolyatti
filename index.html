@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Натяжные потолки в Тольятти — монтаж 550 ₽ за м², замер бесплатно</title>
-<meta name="description" content="Изготовление и монтаж натяжных потолков в Тольятти. Установка потолка — 550 ₽ за м², замер бесплатный. Продаём комплектующие. Посчитайте стоимость онлайн.">
+<title>Натяжные потолки в Тольятти — 550 ₽ за м² с полотном, замер бесплатно</title>
+<meta name="description" content="Изготовление и монтаж натяжных потолков в Тольятти. Полотно и работа — 550 ₽ за м², замер бесплатный. Продаём комплектующие. Посчитайте стоимость онлайн.">
 <meta name="theme-color" content="#eef0f3">
 <meta property="og:title" content="Натяжные потолки в Тольятти — замер бесплатно">
-<meta property="og:description" content="Монтаж — 550 ₽ за м². Посчитайте стоимость потолка онлайн и запишитесь на бесплатный замер.">
+<meta property="og:description" content="Полотно и работа — 550 ₽ за м². Посчитайте стоимость потолка онлайн и запишитесь на бесплатный замер.">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +31,7 @@
       <a href="#areas">Районы</a>
       <a href="#faq">Вопросы</a>
     </nav>
+    <a class="phone" href="tel:+79626111291">+7 962 611-12-91</a>
     <a class="btn btn--accent header__cta" href="#contact"><span class="cta-full">Записаться на замер</span><span class="cta-short">Замер</span></a>
     <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
   </div>
@@ -41,7 +42,7 @@
   <section class="hero" aria-labelledby="hero-h">
     <div class="hero__copy">
       <h1 id="hero-h">Натяжные потолки в&nbsp;Тольятти</h1>
-      <p class="hero__lead">Монтаж — 550&nbsp;₽ за м². Замер бесплатный: мастер приедет, измерит комнату и назовёт точную цену.</p>
+      <p class="hero__lead">Работа мастера и полотно — 550&nbsp;₽ за м². Замер бесплатный: мастер приедет, измерит комнату и назовёт точную цену.</p>
       <div class="hero__actions">
         <a class="btn btn--accent" href="#contact">Записаться на замер</a>
         <a class="textlink" href="#calc">Посчитать свой потолок</a>
@@ -49,7 +50,7 @@
     </div>
     <div class="hero__disc">
       <p class="disc__price">550&nbsp;₽</p>
-      <p class="disc__unit">за м² монтажа</p>
+      <p class="disc__unit">за м², полотно и работа</p>
       <p class="disc__free">Замер бесплатно</p>
     </div>
   </section>
@@ -60,12 +61,22 @@
       <p class="calc__intro">Цена каждой работы указана рядом. Меняйте количество — итог пересчитается сразу.</p>
       <form class="calc__rows" id="calcForm" novalidate>
         <div class="row" data-key="area" data-price="550" data-max="300">
-          <label class="row__name" for="c-area">Установка натяжного потолка</label>
+          <label class="row__name" for="c-area">Натяжной потолок: полотно и работа мастера</label>
           <span class="row__price">550 ₽ за м²</span>
           <div class="stepper">
             <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
             <input id="c-area" type="text" inputmode="decimal" value="18" autocomplete="off">
             <span class="stepper__unit">м²</span>
+            <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
+          </div>
+        </div>
+        <div class="row" data-key="profile" data-price="35" data-max="300">
+          <label class="row__name" for="c-profile">Профиль для потолка</label>
+          <span class="row__price">35 ₽ за м.п.</span>
+          <div class="stepper">
+            <button type="button" class="stepper__btn" data-dir="-1" aria-label="Меньше">−</button>
+            <input id="c-profile" type="text" inputmode="decimal" value="17" autocomplete="off">
+            <span class="stepper__unit">м.п.</span>
             <button type="button" class="stepper__btn" data-dir="1" aria-label="Больше">+</button>
           </div>
         </div>
@@ -114,9 +125,9 @@
     <div class="calc__result">
       <svg class="plan" id="plan" viewBox="0 0 400 300" role="img" aria-label="Схема комнаты: размер потолка, светильники, люстра и карниз по вашему расчёту"></svg>
       <div class="result">
-        <p class="total" id="total" aria-hidden="true">19&nbsp;000&nbsp;₽</p>
+        <p class="total" id="total" aria-hidden="true">19&nbsp;595&nbsp;₽</p>
         <p class="visually-hidden" id="totalLive" role="status"></p>
-        <p class="summary" id="summary">Потолок 18 м², заглушка 17 м.п., светильники 6 шт., люстра 1 шт., карниз 3 м.п.</p>
+        <p class="summary" id="summary">Потолок 18 м², профиль 17 м.п., заглушка 17 м.п., светильники 6 шт., люстра 1 шт., карниз 3 м.п.</p>
         <p class="result__note">Расчёт по прайсу. Точную сумму назовём на бесплатном замере.</p>
         <a class="btn btn--light" href="#contact" id="calcCta">Записаться на замер с этим расчётом</a>
       </div>
@@ -159,7 +170,7 @@
     <div class="cat">
       <div class="cat__head"><h3>Изготовление и монтаж</h3><p>5 работ</p></div>
       <ul class="menu">
-        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Натяжной потолок</strong><span>550 ₽ за м²</span></p><p class="menu__desc">Изготавливаем полотно по размерам вашей комнаты и устанавливаем.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Натяжной потолок</strong><span>550 ₽ за м²</span></p><p class="menu__desc">Полотно под размеры вашей комнаты и работа мастера входят в цену. Профиль считается отдельно.</p></div></li>
         <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Декоративная заглушка</strong><span>150 ₽ за м.п.</span></p><p class="menu__desc">Закрывает зазор между потолком и стеной по периметру.</p></div></li>
         <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Светильник</strong><span>500 ₽ за шт.</span></p><p class="menu__desc">Установка светильника в натяжной потолок.</p></div></li>
         <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Люстра</strong><span>1 000 ₽ за шт.</span></p><p class="menu__desc">Установка люстры на натяжной потолок.</p></div></li>
@@ -170,12 +181,13 @@
     <div class="cat">
       <div class="cat__head"><h3>Комплектующие</h3><p>продаём отдельно</p></div>
       <ul class="menu">
-        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Профили для потолка</strong></p><p class="menu__desc">Крепление полотна по периметру комнаты.</p></div></li>
-        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Декоративные заглушки</strong></p><p class="menu__desc">Чтобы закрыть зазор у стены.</p></div></li>
-        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Светильники</strong></p><p class="menu__desc">Встраиваются в потолок.</p></div></li>
-        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Карнизы</strong></p><p class="menu__desc">Потолочные карнизы под шторы.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Профиль для натяжных потолков</strong><span>35 ₽ за м.п.</span></p><p class="menu__desc">Крепление полотна по периметру комнаты.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Декоративная вставка</strong><span>50 ₽ за м.п.</span></p><p class="menu__desc">Закрывает зазор между потолком и стеной.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Светильники</strong><span>400 ₽ за шт.</span></p><p class="menu__desc">Встраиваются в натяжной потолок.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Платформы для светильников</strong><span>35 ₽ за шт.</span></p><p class="menu__desc">Основа под установку светильника.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Термокольцо</strong><span>20 ₽ за шт.</span></p><p class="menu__desc">Под светильник и люстру на натяжном потолке.</p></div></li>
+        <li><span class="dot" aria-hidden="true"></span><div><p class="menu__top"><strong>Карниз для штор</strong><span>650 ₽ за м.п.</span></p><p class="menu__desc">Потолочный карниз под шторы.</p></div></li>
       </ul>
-      <p class="cat__note">Цену на комплектующие назовём по запросу — напишите в заявке, что нужно.</p>
     </div>
   </section>
 
@@ -187,7 +199,7 @@
   <section class="areas" id="areas" aria-labelledby="areas-h">
     <div class="areas__list">
       <h2 id="areas-h">Выезжаем в любой район Тольятти</h2>
-      <p>Замер бесплатный в Автозаводском, Центральном и Комсомольском районах.</p>
+      <p>Выезжаем на замер во все районы города. Замер бесплатный.</p>
       <ul class="index" id="index">
         <li data-i="0" data-district="Автозаводский район">
           <a href="#contact">Автозаводский район</a>
@@ -218,7 +230,7 @@
     <div class="faq__stack">
       <details class="qa" name="faq" style="--i:0" open>
         <summary><span class="qa__tab">Цена</span><span class="qa__q">Кажется дорого. Из чего складывается цена?</span></summary>
-        <div class="qa__a"><p>550 ₽ — стоимость установки одного квадратного метра потолка. Остальное считается отдельно: заглушка, светильники, люстра, карниз. Вы берёте только нужное и платите только за него. Цена каждой работы написана на сайте — соберите свой вариант в расчёте выше.</p></div>
+        <div class="qa__a"><p>550 ₽ за квадратный метр — это полотно и работа мастера. Отдельно считаются профиль, заглушка, светильники, люстра и карниз. Вы берёте только нужное и платите только за него. Цена каждой работы написана на сайте — соберите свой вариант в расчёте выше.</p></div>
       </details>
       <details class="qa" name="faq" style="--i:1">
         <summary><span class="qa__tab">Замер</span><span class="qa__q">Сколько стоит замер?</span></summary>
@@ -226,15 +238,15 @@
       </details>
       <details class="qa" name="faq" style="--i:2">
         <summary><span class="qa__tab">Состав</span><span class="qa__q">Что входит в итоговую сумму?</span></summary>
-        <div class="qa__a"><p>Пять позиций: установка потолка за м², заглушка за м.п., светильники и люстры за штуку, карниз за м.п. Чего вы не выбрали, в сумму не входит.</p></div>
+        <div class="qa__a"><p>Потолок с полотном за м², профиль за м.п., установка заглушки за м.п., светильники и люстры за штуку, карниз за м.п. Чего вы не выбрали, в сумму не входит.</p></div>
       </details>
       <details class="qa" name="faq" style="--i:3">
         <summary><span class="qa__tab">Детали</span><span class="qa__q">Можно купить комплектующие без монтажа?</span></summary>
-        <div class="qa__a"><p>Да, мы продаём комплектующие отдельно. Напишите в заявке, что нужно, — назовём цену и условия.</p></div>
+        <div class="qa__a"><p>Да, мы продаём комплектующие отдельно, цены указаны выше. Напишите в заявке, что нужно, — подготовим заказ.</p></div>
       </details>
       <details class="qa" name="faq" style="--i:4">
         <summary><span class="qa__tab">Район</span><span class="qa__q">Вы работаете только в Тольятти?</span></summary>
-        <div class="qa__a"><p>Да, мы работаем в Тольятти. Если вы живёте рядом с городом, напишите в заявке — подскажем, сможем ли приехать.</p></div>
+        <div class="qa__a"><p>Да, мы работаем в Тольятти и выезжаем на замер во все районы. Если вы живёте рядом с городом, напишите в заявке — подскажем, сможем ли приехать.</p></div>
       </details>
     </div>
   </section>
@@ -243,7 +255,7 @@
     <div class="coupon">
       <div class="coupon__lead">
         <h2 id="contact-h">Запишитесь на бесплатный замер</h2>
-        <p>Оставьте имя и телефон — мы перезвоним и договоримся о времени.</p>
+        <p>Оставьте имя и телефон — мы перезвоним и договоримся о времени. Или позвоните менеджеру Максу: <a href="tel:+79626111291">+7 962 611-12-91</a>.</p>
       </div>
       <form class="coupon__form" id="leadForm" novalidate>
         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
@@ -278,7 +290,8 @@
     </nav>
     <div class="footer__contact">
       <p>Тольятти</p>
-      <p>Заявки принимаем на сайте — перезваниваем и договариваемся о замере.</p>
+      <p>Менеджер Макс: <a href="tel:+79626111291">+7 962 611-12-91</a></p>
+      <p>Или оставьте заявку на сайте — перезвоним и договоримся о замере.</p>
     </div>
   </div>
   <div class="footer__bottom">
